@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+/* * {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboard-dark {
+  position: absolute;
+  background-color: #5840BB;
+  max-width: 1920px;
+  width: 100%;
+  margin-inline: auto;
+  border-radius: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  position: relative;
+  top: 84px;
+  left: 142px;
+  font-family: 'Open Sans';
+  font-size: 30px;
+  line-height: 38.16px;
+  color: white;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg {
+  position: inherit;
+  width: 1528px;
+  height: 1031px;
+  top: 25px;
+  left: 368px;
+  gap: 0px;
+  border-radius: 60px;
+  background-color: #ffff;
+}
+
+.welcome {
+  position: absolute;
+  top: 57px;
+  left: 91px;
+  font-weight: 400;
+  font-family: 'Google Sans';
+  font-size: 45px;
+  line-height: 57.24px;
+  color: #42427D;
+}
+
+.navigation {
+  position: relative;
+  width: 320px;
+  height: 524px;
+  top: 242px;
+  left: 64px;
+  display: grid;
+  border-radius: 60px 0px 0px 0px;
+}
+
+span {
+  font-family: 'Open Sans';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.44px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  padding-left: 105px;
 }
 
-.App-link {
-  color: #61dafb;
+.span1 {
+  background-color: white;
+  border-radius: 20px 0px 0 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top-actions {
+  position: absolute;
+  width: 440px;
+  height: 56px;
+  top: 72px;
+  left: 1379px;
+  right: 20px;
+  background-color: red;
 }
+
+input {
+  width: 280px;
+  height: 56px;
+  padding: 25px;
+  background-color: #F3F6FF;
+  ;
+  border-radius: 20px 5px 20px 5px;
+  margin-right: 30px;
+  outline: none;
+}
+
+.summary-stats {
+  width: 808px;
+  height: 152px;
+  margin-top: 200px;
+  margin-left: 91px;
+  display: flex;
+}
+
+.orders {
+  width: 320px;
+  height: 152px;
+  border-radius: 50px 10px 50px 10px;
+  background-color: #C7F2FF;
+  margin-right: 30px;
+}
+
+.profit {
+  width: 440px;
+  height: 152px;
+  border-radius: 10px 50px 10px 50px;
+  background-color: #FFE5EE;
+}
+
+.retangle-3 {
+  width: 56px;
+  height: 56px;
+  margin-top: 48px;
+  margin-left: 40px;
+  border-radius: 15px 5px 15px 5px;
+  background-color: #FFFFFF;
+  display: flex;
+} */
