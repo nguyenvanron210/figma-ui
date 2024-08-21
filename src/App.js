@@ -1,36 +1,39 @@
 import "./App.css";
+import Navigation from "./components/Navigation.js";
+import Welcome from "./components/Welcome.js";
+import SummaryStats from "./components/SummaryStats.js";
+import TopSellingProducts from "./components/TopSellingProducts.js";
+import Logo from "./components/Logo.js";
+import Chart from "./components/Chart.js";
+import TopActions from "./components/TopActions.js";
+import UniqueVisitors from "./components/UniqueVisitors.js";
+import vector1 from "./img/vector-1.png";
+import vector2 from "./img/vector-2.png";
+
+import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
 
 function App() {
   return (
     <div className="dashboard-dark">
-      <h1 className="logo">
-        <strong>ForShop</strong>
-      </h1>
-      <div className="navigation">
-        <span className="span1">Dashboard</span>
-        <span>Orders</span>
-        <span>Products</span>
-        <span>Marketing</span>
-        <span>Rates</span>
-        <span>Reports</span>
-      </div>
       <div className="bg">
-        <h1 className="welcome">
-          Welcome, <strong>Damian</strong>
-        </h1>
-        <div className="top-actions">
-          <input placehoder="Search for products..."></input>
-          <button></button>
-        </div>
-        <div className="summary-stats">
-          <div className="orders">
-            <div className="retangle-3"></div>
-          </div>
-          <div className="profit">
-            <div className="retangle-3"></div>
-          </div>
+        <Welcome />
+        <TopActions />
+        <SummaryStats />
+        <TopSellingProducts />
+        <UniqueVisitors />
+        <div className="sales-statistics-chart">
+          <h3 className="h3-sales-statistics">Sales statistics</h3>
+          <button className="retangle-monthly">
+            Monthly
+            <ExpandMoreOutlinedIcon className="ml-[30px] text-[#7979B2]" />
+          </button>
+          <Chart />
         </div>
       </div>
+      <Logo />
+      <Navigation />
+      <img srcSet={vector1} alt="vector-1" className="vector-1" />
+      <img srcSet={vector2} alt="vector-2" className="vector-2" />
     </div>
   );
 }
