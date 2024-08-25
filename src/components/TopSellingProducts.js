@@ -1,5 +1,6 @@
 import React from "react";
 import ChevronRightOutlinedIcon from "@mui/icons-material/ChevronRightOutlined";
+import "../components-css/TopSellingProducts.css";
 
 import img1 from "../img/product-1.png";
 import img2 from "../img/product-2.png";

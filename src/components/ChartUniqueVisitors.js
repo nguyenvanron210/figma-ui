@@ -1,4 +1,6 @@
 import React, { PureComponent } from "react";
+import "../components-css/Welcome.css";
+
 import {
   LineChart,
   Line,

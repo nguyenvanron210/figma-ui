@@ -1,0 +1,20 @@
+.navigation {
+    width: 320px;
+    height: 524px;
+    margin-top: -762px;
+    margin-left: 64px;
+    display: grid;
+}
+
+.navigation-span {
+    font-family: 'Google Sans';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.44px;
+    display: block;
+    padding: 29px;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}

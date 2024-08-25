@@ -1,8 +1,10 @@
 import React from "react";
+import "../components-css/TopActions.css";
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import img5 from "../img/avatar1.png"
 import ntc from "../img/ntc.png";
+
 
 const TopActions = () => {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import ChartUniqueVisitors from "./ChartUniqueVisitors";
 import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
+import "../components-css/UniqueVisitors.css";
 
 const UniqueVisitors = () => {
   return (

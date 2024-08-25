@@ -1,0 +1,126 @@
+.summary-stats {
+    position: relative;
+    width: 808px;
+    height: 152px;
+    top: 179px;
+    left: 91px;
+    display: flex;
+}
+
+.orders {
+    width: 320px;
+    height: 152px;
+    border-radius: 50px 10px 50px 10px;
+    background-color: #C7F2FF;
+    margin-right: 48px;
+}
+
+.profits {
+    width: 440px;
+    height: 152px;
+    border-radius: 10px 50px 10px 50px;
+    background-color: #FFE5EE;
+}
+
+.retangle-3 {
+    width: 56px;
+    height: 56px;
+    margin-top: 48px;
+    margin-left: 40px;
+    border-radius: 15px 5px 15px 5px;
+    background-color: #FFFFFF;
+}
+
+.retangle-3-order {
+    position: relative;
+    left: 16px;
+    top: 16px;
+}
+
+.number-order {
+    position: absolute;
+    display: block;
+    top: 49px;
+    left: 134px;
+}
+
+
+.h2-23789 {
+    width: 99px;
+    height: 41px;
+    font-family: 'Google Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.7px;
+    color: #42427D;
+    margin-bottom: -2px;
+}
+
+.order {
+    font-family: 'Google Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.35px;
+    color: #42427D;
+    margin-bottom: 0px;
+}
+
+.number-profit {
+    position: absolute;
+    display: block;
+    top: 49px;
+    left: 502px;
+}
+
+.h2-12890 {
+    width: 171px;
+    height: 41px;
+    font-family: 'Google Sans';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.7px;
+    color: #42427D;
+    margin-bottom: -2px;
+}
+
+.profit {
+    font-family: 'Google Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.35px;
+    text-align: left;
+    color: #42427D;
+    margin-bottom: 0px;
+}
+
+.retangle-3-badge-order {
+    width: 46px;
+    height: 31px;
+    margin-top: -25px;
+    margin-left: 201px;
+    border-radius: 10px 2px 10px 2px;
+    font-family: 'Google Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.35px;
+    text-align: center;
+}
+
+.retangle-3-badge-profit {
+    width: 95px;
+    height: 31px;
+    margin-top: -25px;
+    margin-left: 272px;
+    border-radius: 10px 2px 10px 2px;
+    font-family: 'Google Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.35px;
+    text-align: center;
+}
+
+.retangle-3-profit {
+    position: relative;
+    left: 16px;
+    top: 16px;
+}

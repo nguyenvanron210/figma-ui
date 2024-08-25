@@ -1,0 +1,33 @@
+.unique-visitors {
+    width: 467px;
+    height: 263px;
+    position: absolute;
+    top: 709px;
+    left: 973px;
+}
+
+.h3-unique-visitors {
+    width: 172px;
+    height: 31px;
+    color: #42427D;
+    font-family: 'Google Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.53px;
+    display: inline-block;
+}
+
+.retangle-weekly {
+    width: 149px;
+    height: 52px;
+    position: relative;
+    border-radius: 15px 5px 15px 5px;
+    border: 1px solid #a3a8aa;
+    font-family: 'Google Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.35px;
+    color: #7979B2;
+    margin-left: 146px;
+    margin-bottom: 40px;
+}
