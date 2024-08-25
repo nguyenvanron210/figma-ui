@@ -1,14 +1,11 @@
 .summary-stats {
-    position: relative;
-    width: 808px;
+    width: 60%;
     height: 152px;
-    top: 179px;
-    left: 91px;
     display: flex;
 }
 
 .orders {
-    width: 320px;
+    width: 40%;
     height: 152px;
     border-radius: 50px 10px 50px 10px;
     background-color: #C7F2FF;
@@ -16,7 +13,7 @@
 }
 
 .profits {
-    width: 440px;
+    width: 60%;
     height: 152px;
     border-radius: 10px 50px 10px 50px;
     background-color: #FFE5EE;
@@ -32,16 +29,11 @@
 }
 
 .retangle-3-order {
-    position: relative;
-    left: 16px;
-    top: 16px;
+
 }
 
 .number-order {
-    position: absolute;
     display: block;
-    top: 49px;
-    left: 134px;
 }
 
 
@@ -66,10 +58,6 @@
 }
 
 .number-profit {
-    position: absolute;
-    display: block;
-    top: 49px;
-    left: 502px;
 }
 
 .h2-12890 {
@@ -120,7 +108,5 @@
 }
 
 .retangle-3-profit {
-    position: relative;
-    left: 16px;
-    top: 16px;
+
 }

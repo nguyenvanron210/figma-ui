@@ -15,11 +15,24 @@ import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
 function App() {
   return (
     <div className="dashboard-dark">
-      <div className="bg">
-        <Welcome />
-        <TopActions />
-        <SummaryStats />
-        <TopSellingProducts />
+      <div className="bg-left">
+        <Logo />
+        <Navigation />
+
+        {/* <img srcSet={vector1} alt="vector-1" className="vector-1" />
+        <img srcSet={vector2} alt="vector-2" className="vector-2" /> */}
+      </div>
+      <div className="bg-right">
+        <div className="bg__header">
+          <Welcome />
+          <TopActions />
+        </div>
+        <div className="bg__container">
+        <div className="bg-right__container"><SummaryStats /></div>
+        
+        <div className="bg-left__container"><TopSellingProducts /></div>
+        </div>
+        {/* 
         <UniqueVisitors />
         <div className="sales-statistics-chart">
           <h3 className="h3-sales-statistics">Sales statistics</h3>
@@ -28,12 +41,8 @@ function App() {
             <ExpandMoreOutlinedIcon className="ml-[30px] text-[#7979B2]" />
           </button>
           <Chart />
-        </div>
+        </div> */}
       </div>
-      <Logo />
-      <Navigation />
-      <img srcSet={vector1} alt="vector-1" className="vector-1" />
-      <img srcSet={vector2} alt="vector-2" className="vector-2" />
     </div>
   );
 }

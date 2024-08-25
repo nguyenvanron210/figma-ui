@@ -1,11 +1,9 @@
 .top-actions {
-    position: absolute;
     width: auto;
     height: 56px;
-    top: 54px;
-    left: 991px;
     /* background-color: red; */
     display: flex;
+
 }
 
 .top-action-input {

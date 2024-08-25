@@ -1,9 +1,6 @@
 .top-selling-products {
-    position: absolute;
     display: grid;
     height: 447px;
-    top: 176px;
-    left: 989px;
     width: 448px;
 }
 

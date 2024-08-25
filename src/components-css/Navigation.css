@@ -1,9 +1,5 @@
 .navigation {
-    width: 320px;
-    height: 524px;
-    margin-top: -762px;
-    margin-left: 64px;
-    display: grid;
+    margin-top: 253px;
 }
 
 .navigation-span {
@@ -13,6 +9,7 @@
     line-height: 25.44px;
     display: block;
     padding: 29px;
+    border-radius: 25px 0px 0px 25px;
 }
 
 .font-weight-700 {
