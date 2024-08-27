@@ -8,10 +8,12 @@
 
 .dashboard-dark {
   background-color: #5840BB;
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 1080px;
   border-radius: 60px;
-  display: block;
+  padding: 25px;
+  display: flex;
 }
 
 .dashboard-dark__left {

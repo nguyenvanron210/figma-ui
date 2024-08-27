@@ -32,10 +32,6 @@ function App() {
           <UniqueVisitors />
         </div>
       </div>
-      <Logo />
-      <Navigation />
-      <img srcSet={vector1} alt="vector-1" className="vector-1" />
-      <img srcSet={vector2} alt="vector-2" className="vector-2" />
     </div>
   );
 }
