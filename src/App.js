@@ -4,44 +4,33 @@ import Welcome from "./components/Welcome.js";
 import SummaryStats from "./components/SummaryStats.js";
 import TopSellingProducts from "./components/TopSellingProducts.js";
 import Logo from "./components/Logo.js";
-import Chart from "./components/Chart.js";
 import TopActions from "./components/TopActions.js";
 import UniqueVisitors from "./components/UniqueVisitors.js";
 import vector1 from "./img/vector-1.png";
 import vector2 from "./img/vector-2.png";
 
-import ExpandMoreOutlinedIcon from "@mui/icons-material/ExpandMoreOutlined";
+import { ChartRight } from "./components/ChartRight.js";
 
 function App() {
   return (
     <div className="dashboard-dark">
-      <div className="bg-left">
+      <div className="dashboard-dark__left">
         <Logo />
         <Navigation />
-
         {/* <img srcSet={vector1} alt="vector-1" className="vector-1" />
         <img srcSet={vector2} alt="vector-2" className="vector-2" /> */}
       </div>
-      <div className="bg-right">
-        <div className="bg__header">
+      <div className="dashboard-dark__right">
+        <div className="dashboard-dark__container-left">
           <Welcome />
+          <SummaryStats />
+          <ChartRight />
+        </div>
+        <div className="dashboard-dark__container-right">
           <TopActions />
+          <TopSellingProducts />
+          <UniqueVisitors />
         </div>
-        <div className="bg__container">
-        <div className="bg-right__container"><SummaryStats /></div>
-        
-        <div className="bg-left__container"><TopSellingProducts /></div>
-        </div>
-        {/* 
-        <UniqueVisitors />
-        <div className="sales-statistics-chart">
-          <h3 className="h3-sales-statistics">Sales statistics</h3>
-          <button className="retangle-monthly">
-            Monthly
-            <ExpandMoreOutlinedIcon className="ml-[30px] text-[#7979B2]" />
-          </button>
-          <Chart />
-        </div> */}
       </div>
     </div>
   );

@@ -1,0 +1,61 @@
+.chart-right {
+    width: 100%;
+    height: 575px;
+    margin-top: 70px;
+}
+
+.chart-right__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.chart-right__h3 {
+    font-family: 'Google Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.53px;
+    width: 172px;
+    height: 31px;
+    color: #42427D;
+    display: inline-block;
+}
+
+.chart-right__retangle-monthly {
+    width: 149px;
+    height: 52px;
+    border-radius: 15px 5px 15px 5px;
+    border: 1px solid #a3a8aa;
+    font-family: 'Google Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.35px;
+    color: #7979B2;
+}
+
+@media only screen and (max-width: 1560px) {
+    .chart-right {
+        height: 490px;
+        margin-top: 148px;
+    }
+
+    .chart-right__group{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .chart-right {
+        margin-top: 90px;
+    }
+}
+
+
+
+/* @media only screen and (min-width: 1024px) {
+    .chart-right {
+            height: 453px;
+            margin-top: 122px;
+        }
+} */

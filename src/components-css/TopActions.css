@@ -1,13 +1,12 @@
 .top-actions {
-    width: auto;
+    width: 100%;
     height: 56px;
-    /* background-color: red; */
     display: flex;
-
+    justify-content: flex-end;
 }
 
 .top-action-input {
-    width: 280px;
+    width: 70%;
     height: 56px;
     border-radius: 20px 5px 20px 5px;
     background: #F3F6FF;
@@ -71,4 +70,15 @@
     position: relative;
     top: -24px;
     left: 48px;
+}
+
+@media only screen and (max-width: 1435px) {
+    .top-action-input {
+        display: none;
+
+    }
+
+    .top-actions {
+        justify-content: space-evenly;
+    }
 }

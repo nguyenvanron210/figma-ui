@@ -16,75 +16,33 @@
   display: flex;
 }
 
-.bg-left {
+.dashboard-dark__left {
   width: 20%;
   height: 1031px;
   border-radius: 60px;
   padding-left: 50px;
+  padding-top: 60px;
 }
 
-.bg-right {
+.dashboard-dark__right {
   width: 80%;
   height: 1031px;
   border-radius: 60px;
   background-color: #fff;
   padding: 50px 50px 50px 80px;
+  display: flex;
 }
 
-.sales-statistics-chart {
-  width: 854px;
-  height: 575px;
-  margin-top: 250px;
-  margin-left: 44px;
-}
-
-.h3-sales-statistics {
-  font-family: 'Google Sans';
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 30.53px;
-  width: 172px;
-  height: 31px;
-  top: -24px;
-  left: 47px;
-  position: relative;
-  color: #42427D;
-  display: inline-block;
-}
-
-.retangle-monthly {
-  width: 149px;
-  height: 52px;
-  top: -26px;
-  left: 534px;
-  position: relative;
-  border-radius: 15px 5px 15px 5px;
-  border: 1px solid #a3a8aa;
-  font-family: 'Google Sans';
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20.35px;
-  color: #7979B2;
-  ;
-}
-
-.logo-span {
-  font-family: 'Google Sans';
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 38.16px;
+.dashboard-dark__container-left {
+  width: 60%;
   display: block;
-  position: absolute;
-  top: 86px;
-  left: 92px
+  padding-right: 50px;
 }
 
-.recharts-legend-item-text {
-  color: #fff !important;
-}
-
-.recharts-legend-icon {
-  display: none;
+.dashboard-dark__container-right {
+  width: 40%;
+  display: block;
+  padding-left: 50px;
 }
 
 .vector-1 {
@@ -98,26 +56,16 @@
   top: 354px;
   left: 334px;
 }
-
-.bg__header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.recharts-legend-item-text {
+  color: #fff !important;
 }
 
-.bg__container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+.recharts-legend-icon {
+  display: none;
 }
 
-.bg-right__container {
-  width: 60%;
-  background-color: yellow;
-}
-
-.bg-left__container {
-  width: 40%;
-  display: flex;
-  margin-left: 50px;
+@media only screen and (max-width: 1230px) {
+  .dashboard-dark__left {
+    padding-left: 0px;
+  }
 }

@@ -16,13 +16,13 @@ const TopActions = () => {
         placeholder="Search for products..."
       />
       <SearchOutlinedIcon className="top-action-icon-search" fontSize="large" />
-      <div className="top-action-notication">
+      <button className="top-action-notication">
         <img srcSet={ntc} alt="ntc-2" className="ntc"/>
         <NotificationsNoneOutlinedIcon className="top-action-icon-notication" />
-      </div>
-      <div className="top-action-avatar">
+      </button>
+      <button className="top-action-avatar">
         <img srcSet={img5} alt="product-1" className="img5" />
-      </div>
+      </button>
     </div>
   );
 };

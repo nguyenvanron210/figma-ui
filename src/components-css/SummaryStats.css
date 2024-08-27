@@ -1,43 +1,38 @@
 .summary-stats {
-    width: 60%;
+    width: 100%;
     height: 152px;
     display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
-.orders {
-    width: 40%;
+.summary-stats__orders {
+    width: 43%;
     height: 152px;
     border-radius: 50px 10px 50px 10px;
     background-color: #C7F2FF;
-    margin-right: 48px;
+    padding: 47px 10px 47px 47px;
+    display: flex;
 }
 
-.profits {
-    width: 60%;
+.summary-stats__profits {
+    width: 52%;
     height: 152px;
     border-radius: 10px 50px 10px 50px;
     background-color: #FFE5EE;
+    padding: 47px 10px 47px 47px;
+    display: flex;
 }
 
-.retangle-3 {
+.summary-stats__shares {
     width: 56px;
     height: 56px;
-    margin-top: 48px;
-    margin-left: 40px;
     border-radius: 15px 5px 15px 5px;
     background-color: #FFFFFF;
+    padding: 17px;
 }
 
-.retangle-3-order {
-
-}
-
-.number-order {
-    display: block;
-}
-
-
-.h2-23789 {
+.summary-stats__group {
     width: 99px;
     height: 41px;
     font-family: 'Google Sans';
@@ -45,22 +40,10 @@
     font-weight: 700;
     line-height: 40.7px;
     color: #42427D;
-    margin-bottom: -2px;
+    margin-left: 30px;
 }
 
-.order {
-    font-family: 'Google Sans';
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20.35px;
-    color: #42427D;
-    margin-bottom: 0px;
-}
-
-.number-profit {
-}
-
-.h2-12890 {
+.summary-stats__h2 {
     width: 171px;
     height: 41px;
     font-family: 'Google Sans';
@@ -71,12 +54,11 @@
     margin-bottom: -2px;
 }
 
-.profit {
+.summary-stats__order {
     font-family: 'Google Sans';
     font-size: 16px;
     font-weight: 500;
     line-height: 20.35px;
-    text-align: left;
     color: #42427D;
     margin-bottom: 0px;
 }
@@ -84,8 +66,6 @@
 .retangle-3-badge-order {
     width: 46px;
     height: 31px;
-    margin-top: -25px;
-    margin-left: 201px;
     border-radius: 10px 2px 10px 2px;
     font-family: 'Google Sans';
     font-size: 16px;
@@ -97,8 +77,6 @@
 .retangle-3-badge-profit {
     width: 95px;
     height: 31px;
-    margin-top: -25px;
-    margin-left: 272px;
     border-radius: 10px 2px 10px 2px;
     font-family: 'Google Sans';
     font-size: 16px;
@@ -107,6 +85,24 @@
     text-align: center;
 }
 
-.retangle-3-profit {
+@media only screen and (max-width: 1560px) {
+    .summary-stats {
+        flex-direction: column;
+        margin-top: 36px;
+    }
 
+    .summary-stats__orders {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .summary-stats__profits {
+        width: 100%;
+        padding: 25px;
+        margin-top: 10px;
+    }
 }
+
+/* @media only screen and (max-width: 1024px) {
+
+} */

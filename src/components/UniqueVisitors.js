@@ -6,11 +6,14 @@ import "../components-css/UniqueVisitors.css";
 const UniqueVisitors = () => {
   return (
     <div className="unique-visitors">
-      <h3 className="h3-unique-visitors">Unique visitors</h3>
-      <button className="retangle-weekly">
-        Weekly
-        <ExpandMoreOutlinedIcon className="ml-[30px] text-[#7979B2]" />
-      </button>
+      <div className="unique-visitors__group">
+        <h3 className="unique-visitors__h3">Unique visitors</h3>
+        <button className="unique-visitors__retangle-weekly">
+          Weekly
+          <ExpandMoreOutlinedIcon className="ml-[30px] text-[#7979B2]" />
+        </button>
+      </div>
+
       <ChartUniqueVisitors />
     </div>
   );

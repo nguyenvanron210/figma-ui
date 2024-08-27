@@ -10,13 +10,14 @@ import img4 from "../img/product-4.png";
 const TopSellingProducts = () => {
   return (
     <div className="top-selling-products">
-      <h3 className="tsp-h3">Top selling products</h3>
-      <button className="btn-see-all">
-        <div className="div">
-          <p>See all</p>
-          <ChevronRightOutlinedIcon className="ml-[18px] text-[#5840BB]" />
+      <div className="top-selling-products__group">
+        <h3 className="tsp-h3">Top selling products</h3>
+        <div className="display-none mt-[5px]">
+          <button className="btn-see-all">See all</button>
+          <ChevronRightOutlinedIcon className="text-[#5840BB]" />
         </div>
-      </button>
+      </div>
+
       <div className="position">
         <p className="mb">1</p>
         <p className="mb">2</p>

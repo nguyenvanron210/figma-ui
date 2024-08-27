@@ -1,7 +1,12 @@
 .top-selling-products {
-    display: grid;
     height: 447px;
-    width: 448px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.top-selling-products__group {
+    display: flex;
+    justify-content: space-between
 }
 
 .tsp-h3 {
@@ -14,11 +19,6 @@
 }
 
 .btn-see-all {
-    position: absolute;
-    width: 48px;
-    height: 20px;
-    margin-top: 8px;
-    margin-left: 346px;
     color: #5840BB;
     font-family: 'Google Sans';
     font-size: 16px;
@@ -55,10 +55,6 @@
     margin-bottom: 10px;
 }
 
-.div {
-    display: -webkit-box;
-}
-
 .p-product-price {
     margin-left: 15px;
     color: #42427D;
@@ -70,7 +66,7 @@
 
 .position {
     position: absolute;
-    top: 85px;
+    top: 256px;
     font-family: 'Google Sans';
     font-size: 16px;
     font-weight: 500;
@@ -81,4 +77,10 @@
 
 .mb {
     margin-bottom: 79px;
+}
+
+@media only screen and (max-width: 1340px) {
+    .display-none {
+        display: none;
+    }
 }
