@@ -10,7 +10,7 @@ import AssessmentOutlinedIcon from "@mui/icons-material/AssessmentOutlined";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <span className="navigation-span bg-white font-weight-700 text-[#5840BB]">
+      <span className="navigation-span bg-white rounded-[20px] font-weight-700 text-[#5840BB]">
         <StorefrontOutlinedIcon className="mr-[41px] text-[#5840BB]" />
         Dashboard
       </span>
